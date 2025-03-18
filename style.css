@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#image-to-crop {
+    max-width: 100%; /* Không tràn màn hình */
+    max-height: 400px; /* Giới hạn chiều cao để crop dễ hơn */
+    display: block;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+.alert {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 999;
+    display: none;
+}
